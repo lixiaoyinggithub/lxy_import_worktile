@@ -35,7 +35,7 @@ public class WorkTile {
 		StringBuffer entity = new StringBuffer();
 		// entity.append("{data: {name: \"lxy@jianzhimao.com\", password:
 		// \"Jianzhimao\"}}");
-		entity.append("{\"data\": {\"name\": \"lxy@jianzhimao.com\", \"password\": \"Jianzhimao\"}}");
+		entity.append("{\"data\": {\"name\": \"***\", \"password\": \"***\"}}");
 		String httpOrgCreateTestRtn = httpMethod.doPostUncode(httpOrgCreateTest, entity.toString(), charset);
 		System.out.println("result:" + httpOrgCreateTestRtn);
 	}
